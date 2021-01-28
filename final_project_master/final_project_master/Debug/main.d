@@ -14,7 +14,8 @@ main.d main.o: .././main.c \
  d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
- .././UART.h .././LCD_4bit_driver.h
+ .././UART.h .././LCD_4bit_driver.h \
+ d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h
 
 d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -49,3 +50,5 @@ d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
 .././UART.h:
 
 .././LCD_4bit_driver.h:
+
+d:\apps_files\atmel\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
