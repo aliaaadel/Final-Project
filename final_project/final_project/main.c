@@ -40,6 +40,7 @@ int main(void)
 			temp /= 4;
 			lcd_SendStringPos("FIRE!!",1,5);
 			if(Flag==1){
+				_delay_ms(5);
 				if(SPI_TxRx(temp)==0xAA){
 					PORTC^=(1<<7);
 					_delay_ms(100);
